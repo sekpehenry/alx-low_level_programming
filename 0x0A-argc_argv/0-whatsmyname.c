@@ -1,4 +1,3 @@
-print_name_of_funtion.c
 #include <stdio.h>
 
 /**
