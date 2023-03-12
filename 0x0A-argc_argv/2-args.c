@@ -1,13 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - function
- * @argc: offset count
- * @argv: offset value
+ * main - prints all arguments it receives
+ * @argc: n args
+ * @argv: arr args
  * Return: 0
  */
-
-
 int main(int argc, char *argv[])
 {
         int i=0;
