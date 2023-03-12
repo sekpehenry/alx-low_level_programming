@@ -1,16 +1,15 @@
-me_of_funtion.c
 #include <stdio.h>
 
 /**
- *main - function
- *@argc: offset count
- *@argv: offset value
- *Return: 0
+ * main - prints its name, followed by a new line
+ * @argc: n args
+ * @argv: arr args
+ * Return: 0
  */
-
-
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	 printf("%d\n",argc);
-	 return (0);
+	if (argc > 0)
+		printf("%d\n", argc - 1);
+	return (0);
 }
+
